@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="boxContena">
+    <header>一般常識クイズ</header>
+    <p> 様々なジャンルの一般常識クイズを10問にまとめました。<br>
+        このクイズを解くことで皆さんの常識度をチェックすることができます。<br>
+        プレイする方は以下のボタンを押してください。</p>
+    <div id="playbtn">Play</div>
+  </div>
+    
+  <div id="mask" class="hidden"></div>
+    
+    <div id="modal" class="hidden"> 
+      <div class="main">
+        <div class="contena">
+          <p id="question"></p>
+          <p id="scoreview">正答率 0問 / 0問中</p>
+        </div>
+        <ul id="choices"></ul>
+        <div class="disabled" id="btn">次へ</div>
+        <section id="result" class="hidden">
+          <p id="lastScore"></p>
+          <p id="scoreComment"></p>
+          <a href="">Homeへ戻る</a>
+        </section>
+      </div>
+      <div id="text" class="hidden">
+        <p id="correctAns" class="correct"></p>
+        <p id="comment"></p>
+      </div>
+    </div> 
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
