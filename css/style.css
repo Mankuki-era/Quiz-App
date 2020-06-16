@@ -287,10 +287,6 @@ header {
     left: -60px;
   }
 
-  #text.hidden {
-    transform: translateX(500px);
-  }
-
   .contena {
     flex-direction: row;
   }
